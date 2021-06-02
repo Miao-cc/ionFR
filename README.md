@@ -3,8 +3,8 @@
 need to update the ionFRM.py
 
 ```python
-		#os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF12.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
-		os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF13.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
+#os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF12.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
+os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF13.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
 ```
 
 How to run
