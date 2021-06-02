@@ -1,3 +1,25 @@
+# Fork from https://github.com/csobey/ionFR
+
+need to update the ionFRM.py
+
+```python
+		#os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF12.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
+		os.system(''+str(path)+'IGRF/geomag70_linux/geomag70.exe '+str(path)+'IGRF/geomag70_linux/IGRF13.COF f '+str(path)+'IGRF/geomag70_linux/input.txt '+str(path)+'IGRF/geomag70_linux/output.txt')
+```
+
+How to run
+
+```bash
+git clone https://github.com/csobey/ionFR
+cd ionFR
+mkdir newTest
+cd newTest
+cp ../test/codg2930.11i .
+cp ../IGRF/geomag70_linux/IGRF13.COF .
+ionFRM.py 08h37m05.6s+06d10m14.5s 52d54m54.6sn 6d52m11.7se 2011-10-20T00:00:00 codg2930.11i
+```
+
+
 # ionFR
 A code that allows you to predict the ionospheric Faraday rotation for a specific line-of-sight, geographic location, and epoch
 
